@@ -1,4 +1,4 @@
-(defproject nubank/matcher-combinators "3.5.1"
+(defproject nubank/matcher-combinators "4.0.0"
   :description "Library for creating matcher combinator to compare nested data structures"
   :url "https://github.com/nubank/matcher-combinators"
   :license {:name "Apache License, Version 2.0"}
@@ -11,7 +11,7 @@
   :dependencies [[org.clojure/clojure "1.11.0"]
                  [org.clojure/spec.alpha "0.3.218"]
                  [org.clojure/math.combinatorics "0.1.6"]
-                 [midje "1.10.5" :exclusions [org.clojure/clojure]]
+                 [midje "1.10.5" :exclusions [org.clojure/clojure] :scope "provided"]
                  ;; override midje's dependency on an old version
                  ;; of pretty
                  [io.aviso/pretty "1.1.1"]]

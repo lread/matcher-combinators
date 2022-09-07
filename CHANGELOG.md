@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file. This
 change log follows the conventions of
 [keepachangelog.com](http://keepachangelog.com/).
 
+## [4.0.0]
+- move midje dependency to :scope "provided"
+  - this eliminates the transitive dep for those not using midje features
+  - add the dep explicitly to your project config if you use midje features
+
 ## [3.5.1]
 - warn that in-any-order is expensive
 
